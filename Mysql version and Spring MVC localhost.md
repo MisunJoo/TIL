@@ -18,3 +18,6 @@
 ### 해결
 - mysql version을 5.7로 낮춰서 다시 설치하였다.
 - mysql version 8은 처음으로 스크립트방식으로 만든 것이기 때문에 이에 맞는 드라이브를 고르라고 한다.
+
+
+참고 : http://www.okjsp.pe.kr:8080/article/462131
