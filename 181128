@@ -1,0 +1,33 @@
+- spring을 사용하면, EntityManager객체도 만들어야 한다.
+  - DataSource - Hikari, DBCP2
+  - PlatformTransactionManager
+  - EntityManager
+- EntityManager는 Transaction이 끝날 때, SQL문을 몰아서 실행해준다.
+- @Temporal
+- @Basic : 특정 필드를 lazy하게 가져온다. (댓글의 내용부분을 fetch.LAZY)
+  - => 게시판 테이블, 게시물 본문 테이블을 나누지 않아도 된다.
+- @Transient : 비밀번호 확인은 db에 들어갈 필요 없다. => db와 매핑되지 않음
+- @Embedded, @Embeddable
+- @DiscriminatorValue
+- @Embeddable, @EmbeddedId (복합키 설정)
+- FetchType.EAGER는 웬만하면 쓰지말자. 순환될 수 있기 때문에...
+- cascade 
+- JoinFetch할 때, 중복된 결과를 가져오지 않도록 확인
+- join을 연습많이하기....
+
+
+
+- [ ] mysql dept employee sql
+- [ ] hr계정 sql 문제 (sql을 연습할 수 있다.)
+- [ ] http://kwanhwi0123.tistory.com/1
+
+
+
+- [ ] service, repository, controller, 화면에 상품 목록만 보여주기.
+- [ ] Repository……..
+
+
+
+
+
+검색,,,,페이징 부분을 잘 해보도록 하자(내일)
