@@ -1,4 +1,4 @@
-# 내가 또 보려고 정리하는 좋은 글
+# 내가 또 보려고 정리하는 좋은 글 목록 📋👑
 
 ## Database
 - mysql create user : https://cjh5414.github.io/mysql-create-user/
