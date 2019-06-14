@@ -8,6 +8,7 @@
 
 - 프로세스는 그림과 같이 각각 독립된 메모리 영역이다. 각각은 별도의 주소공간에서 실행되며, 다른 프로세스에 접근할 수 없다.
 
+
 - 다른 프로세스의 자원에 접근하려면 프로세스간 통신(IPC, inter-process, communication) 이 필요하다. 
 
   - Ex) 파이프, 파일, 소켓 등을 이용한 통신 방법
@@ -24,7 +25,7 @@
 
 - 스레드의 메모리 영역
 
-  ![image-20190614122944339](/Users/misun/Library/Application Support/typora-user-images/image-20190614122944339.png)
+![image](https://user-images.githubusercontent.com/32324250/59489380-fbbd6500-8ebc-11e9-9c8f-603d259bad5f.png)
 
 - 각각의 스레드는 프로세스 내에서 Stack의 각각만을 따로 할당받는다. Code, Data, Heap 영역은 다른 스레드와 공유한다.
 
