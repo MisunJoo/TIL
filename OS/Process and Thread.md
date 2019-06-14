@@ -96,7 +96,7 @@
 
 ####  프로그램을 여러 개 켜는 것보다 하나의 프로세스 내에서 여러 작업을 해결하는 것
 
-![image-20190614135257017](/Users/misun/Library/Application Support/typora-user-images/image-20190614135257017.png)
+![image](https://user-images.githubusercontent.com/32324250/59489540-69699100-8ebd-11e9-8c2e-c0b650820e91.png)
 
 - 자원의 효율성 증대
   - 프로세스를 생성하여 자원을 할당하는 시스템 콜이 줄어든다 ( 프로세스 간의 Context Switching은 CPU 레지스터 교체, RAM과 CPU사이의 캐쉬 메모리 초기화가 이루어진다)
