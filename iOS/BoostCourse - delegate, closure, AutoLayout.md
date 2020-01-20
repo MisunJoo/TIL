@@ -2,6 +2,7 @@
 # 부스트코스 iOS프로그래밍 
 ## 1. 음원재생기 애플리케이션
 
+
 ### delegate
 #### delegate를 쓰는 과정
 1. delegate를 채택
@@ -17,9 +18,6 @@ in은 정의부와 실행부를 분리하기 위히여 사용
 
 
 ### AutoLayout
-![image](https://user-images.githubusercontent.com/32324250/72681635-d22a8300-3b08-11ea-812b-efec34b267dc.png)
-
-![image](https://user-images.githubusercontent.com/32324250/72681658-02722180-3b09-11ea-8458-dc97ac6a3990.png)
-
+##### Center-X Anchor, Center-Y Anchor, Bottom Anchor, Top Anchor
 출처 : https://medium.com/@hassanahmedkhan/autolayouts-via-layout-anchors-5214b3f746a9
 
